@@ -789,45 +789,57 @@ nm="chain_"*Dates.format(Dates.now(), "d u yyyy H:m:s")
 println(nm)
 png(nm)
 
-Chains MCMC chain (3000×21×1 Array{Float64, 3}):
 
-Iterations        = 1001:1:4000
-Number of chains  = 1
-Samples per chain = 3000
-Wall duration     = 2025.16 seconds
-Compute duration  = 2025.16 seconds
-parameters        = σ, Q1, Q2, Q3, Q4, Q5, Q6, Q7, r
-internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+using CSV, DataFrames
 
-Summary Statistics
-  parameters             mean             std      naive_se           mcse         ess      rhat   ess_per_sec
-      Symbol          Float64         Float64       Float64        Float64     Float64   Float64       Float64
-
-           σ        9069.0611        465.2323        8.4939         9.9265   1869.1445    1.0005        0.9230
-          Q1           0.0080          0.0062        0.0001         0.0001   2847.4085    0.9997        1.4060
-          Q2           0.0079          0.0059        0.0001         0.0001   2785.5122    0.9997        1.3755
-          Q3           0.0080          0.0063        0.0001         0.0001   3001.9337    1.0000        1.4823
-          Q4           0.0079          0.0060        0.0001         0.0001   2645.1335    1.0004        1.3061
-          Q5           0.0079          0.0059        0.0001         0.0001   1784.6831    1.0001        0.8813
-          Q6           0.0068          0.0055        0.0001         0.0001   2234.5690    1.0003        1.1034
-          Q7           0.0080          0.0061        0.0001         0.0001   2326.8354    1.0008        1.1490
-           r   102999661.8757   45974331.3571   839372.6117   1017594.2825   2162.5538    1.0000        1.0678
-
-Quantiles
-  parameters            2.5%           25.0%            50.0%            75.0%            97.5%
-      Symbol         Float64         Float64          Float64          Float64          Float64
-
-           σ       8243.3884       8743.9930        9045.1376        9353.7087       10020.6435
-          Q1          0.0003          0.0031           0.0066           0.0114           0.0228
-          Q2          0.0003          0.0032           0.0067           0.0114           0.0219
-          Q3          0.0003          0.0031           0.0067           0.0115           0.0229
-          Q4          0.0004          0.0031           0.0066           0.0113           0.0222
-          Q5          0.0003          0.0033           0.0067           0.0113           0.0224
-          Q6          0.0003          0.0024           0.0054           0.0099           0.0204
-          Q7          0.0003          0.0032           0.0066           0.0116           0.0230
-           r   18423122.5409   66412465.4127   105212579.7531   142280608.2907   175515266.6039
-
-chain_30 Oct 2023 19:10:032
+# Convert chain to DataFrame
+chain_df = DataFrame(chain)
+# Save to CSV
+full_path_nm="/Users/cristovao/PhD_courses/Thesis/BAT/experiments/dataset2/bat/"
+# full_path_nm="/home/bolic/cris/Bayesian_EKF/EKF_In_Julia-main/exps/repos/case1/bat/"
+CSV.write(full_path_nm*"chain_bat_r1_normal_case2.csv", chain_df)
 
 
-
+#
+# Chains MCMC chain (3000×21×1 Array{Float64, 3}):
+#
+# Iterations        = 1001:1:4000
+# Number of chains  = 1
+# Samples per chain = 3000
+# Wall duration     = 2025.16 seconds
+# Compute duration  = 2025.16 seconds
+# parameters        = σ, Q1, Q2, Q3, Q4, Q5, Q6, Q7, r
+# internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+#
+# Summary Statistics
+#   parameters             mean             std      naive_se           mcse         ess      rhat   ess_per_sec
+#       Symbol          Float64         Float64       Float64        Float64     Float64   Float64       Float64
+#
+#            σ        9069.0611        465.2323        8.4939         9.9265   1869.1445    1.0005        0.9230
+#           Q1           0.0080          0.0062        0.0001         0.0001   2847.4085    0.9997        1.4060
+#           Q2           0.0079          0.0059        0.0001         0.0001   2785.5122    0.9997        1.3755
+#           Q3           0.0080          0.0063        0.0001         0.0001   3001.9337    1.0000        1.4823
+#           Q4           0.0079          0.0060        0.0001         0.0001   2645.1335    1.0004        1.3061
+#           Q5           0.0079          0.0059        0.0001         0.0001   1784.6831    1.0001        0.8813
+#           Q6           0.0068          0.0055        0.0001         0.0001   2234.5690    1.0003        1.1034
+#           Q7           0.0080          0.0061        0.0001         0.0001   2326.8354    1.0008        1.1490
+#            r   102999661.8757   45974331.3571   839372.6117   1017594.2825   2162.5538    1.0000        1.0678
+#
+# Quantiles
+#   parameters            2.5%           25.0%            50.0%            75.0%            97.5%
+#       Symbol         Float64         Float64          Float64          Float64          Float64
+#
+#            σ       8243.3884       8743.9930        9045.1376        9353.7087       10020.6435
+#           Q1          0.0003          0.0031           0.0066           0.0114           0.0228
+#           Q2          0.0003          0.0032           0.0067           0.0114           0.0219
+#           Q3          0.0003          0.0031           0.0067           0.0115           0.0229
+#           Q4          0.0004          0.0031           0.0066           0.0113           0.0222
+#           Q5          0.0003          0.0033           0.0067           0.0113           0.0224
+#           Q6          0.0003          0.0024           0.0054           0.0099           0.0204
+#           Q7          0.0003          0.0032           0.0066           0.0116           0.0230
+#            r   18423122.5409   66412465.4127   105212579.7531   142280608.2907   175515266.6039
+#
+# chain_30 Oct 2023 19:10:032
+#
+#
+#

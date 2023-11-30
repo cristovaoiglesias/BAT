@@ -733,7 +733,7 @@ Turing.setadbackend(:forwarddiff)
 
       sol = solve(prob,BS3(), save_everystep = false, save_start = false, u0=init,tspan=(currentTime,tk),p=p_Q)#, Rosenbrock23(), abstol = 1e-10, reltol = 1e-10)    # predicted1 = solve(problem, Rosenbrock23(),  u0=u0_set, p=p, saveat=tgrid,abstol = 1e-10, reltol = 1e-10)
       #println(sol.t)
-      
+
       measurement_k = noise_dataset[:,1][Int(tk)]
       newP = reshape(sol(tk)[8:end],7,7); # process covariance matrix
       res1 = (newP*H')
@@ -791,45 +791,57 @@ png(nm)
 
 
 
-Chains MCMC chain (3000×21×1 Array{Float64, 3}):
+using CSV, DataFrames
 
-Iterations        = 1001:1:4000
-Number of chains  = 1
-Samples per chain = 3000
-Wall duration     = 3276.57 seconds
-Compute duration  = 3276.57 seconds
-parameters        = σ, Q1, Q2, Q3, Q4, Q5, Q6, Q7, r
-internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
-
-Summary Statistics
-  parameters             mean              std       naive_se           mcse         ess      rhat   ess_per_sec
-      Symbol          Float64          Float64        Float64        Float64     Float64   Float64       Float64
-
-           σ        9169.7472         472.5951         8.6284         8.9685   3371.8352    0.9998        1.0291
-          Q1           0.1001           0.0100         0.0002         0.0002   3889.9485    0.9997        1.1872
-          Q2           0.0999           0.0100         0.0002         0.0002   3910.8141    0.9998        1.1936
-          Q3           0.1001           0.0101         0.0002         0.0002   3812.0984    0.9997        1.1634
-          Q4           0.1000           0.0102         0.0002         0.0002   3650.8584    0.9998        1.1142
-          Q5           0.1001           0.0101         0.0002         0.0002   3900.9144    0.9999        1.1905
-          Q6           0.0987           0.0097         0.0002         0.0002   3028.4542    1.0021        0.9243
-          Q7           0.1002           0.0099         0.0002         0.0002   4152.5013    0.9997        1.2673
-           r   716926252.2450   200881001.6599   3667568.5328   3017394.3660   3939.0329    1.0002        1.2022
-
-Quantiles
-  parameters             2.5%            25.0%            50.0%            75.0%            97.5%
-      Symbol          Float64          Float64          Float64          Float64          Float64
-
-           σ        8296.3206        8840.7210        9139.5802        9458.0385       10207.5677
-          Q1           0.0798           0.0935           0.1002           0.1068           0.1201
-          Q2           0.0810           0.0931           0.0998           0.1068           0.1198
-          Q3           0.0802           0.0932           0.1002           0.1069           0.1197
-          Q4           0.0800           0.0931           0.1002           0.1067           0.1194
-          Q5           0.0815           0.0931           0.0999           0.1071           0.1200
-          Q6           0.0794           0.0924           0.0987           0.1054           0.1179
-          Q7           0.0807           0.0936           0.1002           0.1068           0.1203
-           r   257956166.6724   584084207.4282   752884566.3562   882263134.6417   987413912.1613
-
-chain_29 Oct 2023 19:10:418
-(base) bolic@1810-st-boliclab:~/cris/Bayesian_EKF/EKF_In_Julia-main/exps/case2/met1/met1_fixed$ julia  met1_r1_case2.jl > r1.txt
+# Convert chain to DataFrame
+chain_df = DataFrame(chain)
+# Save to CSV
+full_path_nm="/Users/cristovao/PhD_courses/Thesis/BAT/experiments/dataset2/bat/"
+# full_path_nm="/home/bolic/cris/Bayesian_EKF/EKF_In_Julia-main/exps/repos/case1/bat/"
+CSV.write(full_path_nm*"chain_bat_r1_case2.csv", chain_df)
 
 
+
+#
+# Chains MCMC chain (3000×21×1 Array{Float64, 3}):
+#
+# Iterations        = 1001:1:4000
+# Number of chains  = 1
+# Samples per chain = 3000
+# Wall duration     = 3276.57 seconds
+# Compute duration  = 3276.57 seconds
+# parameters        = σ, Q1, Q2, Q3, Q4, Q5, Q6, Q7, r
+# internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+#
+# Summary Statistics
+#   parameters             mean              std       naive_se           mcse         ess      rhat   ess_per_sec
+#       Symbol          Float64          Float64        Float64        Float64     Float64   Float64       Float64
+#
+#            σ        9169.7472         472.5951         8.6284         8.9685   3371.8352    0.9998        1.0291
+#           Q1           0.1001           0.0100         0.0002         0.0002   3889.9485    0.9997        1.1872
+#           Q2           0.0999           0.0100         0.0002         0.0002   3910.8141    0.9998        1.1936
+#           Q3           0.1001           0.0101         0.0002         0.0002   3812.0984    0.9997        1.1634
+#           Q4           0.1000           0.0102         0.0002         0.0002   3650.8584    0.9998        1.1142
+#           Q5           0.1001           0.0101         0.0002         0.0002   3900.9144    0.9999        1.1905
+#           Q6           0.0987           0.0097         0.0002         0.0002   3028.4542    1.0021        0.9243
+#           Q7           0.1002           0.0099         0.0002         0.0002   4152.5013    0.9997        1.2673
+#            r   716926252.2450   200881001.6599   3667568.5328   3017394.3660   3939.0329    1.0002        1.2022
+#
+# Quantiles
+#   parameters             2.5%            25.0%            50.0%            75.0%            97.5%
+#       Symbol          Float64          Float64          Float64          Float64          Float64
+#
+#            σ        8296.3206        8840.7210        9139.5802        9458.0385       10207.5677
+#           Q1           0.0798           0.0935           0.1002           0.1068           0.1201
+#           Q2           0.0810           0.0931           0.0998           0.1068           0.1198
+#           Q3           0.0802           0.0932           0.1002           0.1069           0.1197
+#           Q4           0.0800           0.0931           0.1002           0.1067           0.1194
+#           Q5           0.0815           0.0931           0.0999           0.1071           0.1200
+#           Q6           0.0794           0.0924           0.0987           0.1054           0.1179
+#           Q7           0.0807           0.0936           0.1002           0.1068           0.1203
+#            r   257956166.6724   584084207.4282   752884566.3562   882263134.6417   987413912.1613
+#
+# chain_29 Oct 2023 19:10:418
+# (base) bolic@1810-st-boliclab:~/cris/Bayesian_EKF/EKF_In_Julia-main/exps/case2/met1/met1_fixed$ julia  met1_r1_case2.jl > r1.txt
+#
+#

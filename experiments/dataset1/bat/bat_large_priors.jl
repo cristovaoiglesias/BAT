@@ -554,44 +554,54 @@ nm="chain_"*Dates.format(Dates.now(), "d u yyyy H:m:s")
 println(nm)
 png(nm)
 
+using CSV, DataFrames
 
-Chains MCMC chain (3000×21×1 Array{Float64, 3}):
+# Convert chain to DataFrame
+chain_df = DataFrame(chain)
+# Save to CSV
+full_path_nm="/Users/cristovao/PhD_courses/Thesis/BAT/experiments/dataset1/bat/"
+# full_path_nm="/home/bolic/cris/Bayesian_EKF/EKF_In_Julia-main/exps/repos/case1/bat/"
+CSV.write(full_path_nm*"chain_bat_large_priors.csv", chain_df)
 
-Iterations        = 1001:1:4000
-Number of chains  = 1
-Samples per chain = 3000
-Wall duration     = 3111.94 seconds
-Compute duration  = 3111.94 seconds
-parameters        = σ, Q1, Q2, Q3, Q4, Q5, Q6, Q7, r
-internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
 
-Summary Statistics
-  parameters             mean              std       naive_se           mcse         ess      rhat   ess_per_sec
-      Symbol          Float64          Float64        Float64        Float64     Float64   Float64       Float64
-
-           σ        9044.2210         904.2707        16.5096        17.1315   2070.1368    1.0003        0.6652
-          Q1           0.1304           0.0781         0.0014         0.0018   2062.0866    1.0008        0.6626
-          Q2           0.1285           0.0815         0.0015         0.0013   3987.4141    0.9997        1.2813
-          Q3           0.1295           0.0778         0.0014         0.0016   2387.4300    0.9999        0.7672
-          Q4           0.1288           0.0732         0.0013         0.0017   1701.4495    1.0000        0.5467
-          Q5           0.1305           0.0778         0.0014         0.0013   1949.2609    1.0004        0.6264
-          Q6           0.1095           0.0717         0.0013         0.0014   3475.3727    0.9998        1.1168
-          Q7           0.1299           0.0798         0.0015         0.0016   3131.4477    0.9997        1.0063
-           r   652960079.3871   226251046.4308   4130760.0596   4712023.0703   2062.8729    1.0003        0.6629
-
-Quantiles
-  parameters             2.5%            25.0%            50.0%            75.0%            97.5%
-      Symbol          Float64          Float64          Float64          Float64          Float64
-
-           σ        7563.8934        8396.6176        8950.4475        9610.6103       11012.8468
-          Q1           0.0113           0.0690           0.1227           0.1815           0.2983
-          Q2           0.0074           0.0658           0.1187           0.1784           0.3101
-          Q3           0.0109           0.0686           0.1195           0.1808           0.3058
-          Q4           0.0109           0.0727           0.1231           0.1774           0.2864
-          Q5           0.0102           0.0693           0.1235           0.1820           0.3001
-          Q6           0.0056           0.0522           0.1003           0.1539           0.2699
-          Q7           0.0075           0.0689           0.1189           0.1804           0.3042
-           r   204409152.1436   477301278.4114   678997142.4575   848925955.3500   981936150.8737
-
-(base) bolic@1810-st-boliclab:~/cris/Bayesian_EKF/EKF_In_Julia-main/exps/case1/met1_fixed$ julia met1.jl > r1.txt
-
+#
+# Chains MCMC chain (3000×21×1 Array{Float64, 3}):
+#
+# Iterations        = 1001:1:4000
+# Number of chains  = 1
+# Samples per chain = 3000
+# Wall duration     = 3111.94 seconds
+# Compute duration  = 3111.94 seconds
+# parameters        = σ, Q1, Q2, Q3, Q4, Q5, Q6, Q7, r
+# internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+#
+# Summary Statistics
+#   parameters             mean              std       naive_se           mcse         ess      rhat   ess_per_sec
+#       Symbol          Float64          Float64        Float64        Float64     Float64   Float64       Float64
+#
+#            σ        9044.2210         904.2707        16.5096        17.1315   2070.1368    1.0003        0.6652
+#           Q1           0.1304           0.0781         0.0014         0.0018   2062.0866    1.0008        0.6626
+#           Q2           0.1285           0.0815         0.0015         0.0013   3987.4141    0.9997        1.2813
+#           Q3           0.1295           0.0778         0.0014         0.0016   2387.4300    0.9999        0.7672
+#           Q4           0.1288           0.0732         0.0013         0.0017   1701.4495    1.0000        0.5467
+#           Q5           0.1305           0.0778         0.0014         0.0013   1949.2609    1.0004        0.6264
+#           Q6           0.1095           0.0717         0.0013         0.0014   3475.3727    0.9998        1.1168
+#           Q7           0.1299           0.0798         0.0015         0.0016   3131.4477    0.9997        1.0063
+#            r   652960079.3871   226251046.4308   4130760.0596   4712023.0703   2062.8729    1.0003        0.6629
+#
+# Quantiles
+#   parameters             2.5%            25.0%            50.0%            75.0%            97.5%
+#       Symbol          Float64          Float64          Float64          Float64          Float64
+#
+#            σ        7563.8934        8396.6176        8950.4475        9610.6103       11012.8468
+#           Q1           0.0113           0.0690           0.1227           0.1815           0.2983
+#           Q2           0.0074           0.0658           0.1187           0.1784           0.3101
+#           Q3           0.0109           0.0686           0.1195           0.1808           0.3058
+#           Q4           0.0109           0.0727           0.1231           0.1774           0.2864
+#           Q5           0.0102           0.0693           0.1235           0.1820           0.3001
+#           Q6           0.0056           0.0522           0.1003           0.1539           0.2699
+#           Q7           0.0075           0.0689           0.1189           0.1804           0.3042
+#            r   204409152.1436   477301278.4114   678997142.4575   848925955.3500   981936150.8737
+#
+# (base) bolic@1810-st-boliclab:~/cris/Bayesian_EKF/EKF_In_Julia-main/exps/case1/met1_fixed$ julia met1.jl > r1.txt
+#
