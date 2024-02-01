@@ -1,0 +1,622 @@
+
+ ParticleSwarm: retcode: Failure
+u: [5.249121385537615e15, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Final objective value:     85.91218675088983
+
+BBE OBJ
+1 25382502651.030224
+3 24792970876.958298
+4 23308538090.776585
+5 17818124223.985909
+6   843595977.035623
+8   843595977.03562
+9   843595977.035593
+10   843595977.035497
+14   839362890.150949
+15   824557881.896492
+16   817559561.281902
+20   817559561.281775
+21   817559561.281368
+22   817559561.280471
+32   537153435.247341
+35   537153434.923921
+39   537153434.923798
+40   537153434.923769
+44   512427505.006101
+48   499271684.011795
+49   390531887.80315
+50        1186.72034
+79          96.976488
+92          96.976476
+96          86.084143
+107          86.083949
+108          86.083366
+109          86.082775
+158          86.052768
+216          86.049608
+228          86.049607
+243          86.049187
+244          86.047907
+256          86.047893
+270          86.036764
+281          85.916719
+318          85.916514
+319          85.915879
+320          85.91395
+332          85.913937
+
+BBE OBJ
+350          85.913884
+363          85.913728
+364          85.913255
+376          85.913254
+388          85.913253
+421          85.91271
+425          85.912684
+426          85.912605
+427          85.912367
+443          85.912363
+444          85.912352
+445          85.912316
+446          85.91231
+458          85.912307
+492          85.912241
+576          85.912237
+589          85.912214
+596          85.912199
+608          85.912194
+A termination criterion is reached: No termination (all). Mesh minimum precision reached (Algo)
+
+Best feasible solution:     #102727 ( 5.24919e+15 0 2.03134e-05 0 0 0 0 0.0106561 )	Evaluation OK	 f =  85.912193999999999505  	 h =   0
+
+Best infeasible solution:   Undefined.
+
+Blackbox evaluations:         899
+Total model evaluations:      129089
+Cache hits:                   102
+Total number of evaluations:  1001
+
+ NOMAD: retcode: Default
+u: [5.249190374731e15, 7.7123e-9, 2.030667629e-5, 0.0, 0.0, 0.0, 0.0, 0.0106562566]
+Final objective value:     85.912194
+
+10-5 CMA-ES
+time:09:22:06.332  iter:1  elapsed-time:1.94  pmap-time:0.35  grad-time:0.00  ls-time:0.01 ls-dec:0.00e+00
+fcount:10  fval:2.23e+10  fmin:2.23e+10  norm:3.06e+16  axis-ratio:4.07e+01  free-mem:38.65GB
+time:09:22:08.406  iter:2  elapsed-time:1.10  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:20  fval:2.01e+10  fmin:2.01e+10  norm:3.06e+16  axis-ratio:8.38e+01  free-mem:38.63GB
+time:09:22:08.417  iter:3  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:30  fval:2.78e+10  fmin:2.01e+10  norm:3.06e+16  axis-ratio:1.33e+02  free-mem:38.63GB
+time:09:22:08.427  iter:4  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:40  fval:2.85e+10  fmin:2.01e+10  norm:3.06e+16  axis-ratio:1.80e+02  free-mem:38.62GB
+time:09:22:08.438  iter:5  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:50  fval:2.72e+10  fmin:2.01e+10  norm:3.06e+16  axis-ratio:2.61e+02  free-mem:38.61GB
+time:09:22:08.497  iter:6  elapsed-time:0.06  pmap-time:0.06  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:60  fval:1.39e+10  fmin:1.39e+10  norm:3.06e+16  axis-ratio:3.21e+02  free-mem:38.62GB
+time:09:22:08.507  iter:7  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:70  fval:2.38e+10  fmin:1.39e+10  norm:3.06e+16  axis-ratio:3.45e+02  free-mem:38.62GB
+time:09:22:08.516  iter:8  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:80  fval:1.12e+10  fmin:1.12e+10  norm:3.06e+16  axis-ratio:3.50e+02  free-mem:38.61GB
+time:09:22:08.526  iter:9  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:90  fval:6.38e+09  fmin:6.38e+09  norm:3.06e+16  axis-ratio:3.54e+02  free-mem:38.60GB
+time:09:22:08.537  iter:10  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:100  fval:7.71e+09  fmin:6.38e+09  norm:3.06e+16  axis-ratio:3.58e+02  free-mem:38.60GB
+time:09:22:08.547  iter:11  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:110  fval:6.13e+09  fmin:6.13e+09  norm:3.06e+16  axis-ratio:3.92e+02  free-mem:38.59GB
+time:09:22:08.557  iter:12  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:120  fval:1.52e+10  fmin:6.13e+09  norm:3.06e+16  axis-ratio:4.08e+02  free-mem:38.62GB
+time:09:22:08.569  iter:13  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:130  fval:2.01e+10  fmin:6.13e+09  norm:3.06e+16  axis-ratio:4.20e+02  free-mem:38.62GB
+time:09:22:08.584  iter:14  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:140  fval:9.31e+09  fmin:6.13e+09  norm:3.06e+16  axis-ratio:4.44e+02  free-mem:38.59GB
+time:09:22:08.62  iter:15  elapsed-time:0.04  pmap-time:0.04  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:150  fval:3.09e+10  fmin:6.13e+09  norm:3.06e+16  axis-ratio:4.76e+02  free-mem:38.59GB
+time:09:22:08.63  iter:16  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:160  fval:1.24e+10  fmin:6.13e+09  norm:3.06e+16  axis-ratio:5.33e+02  free-mem:38.58GB
+time:09:22:08.64  iter:17  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:170  fval:2.55e+10  fmin:6.13e+09  norm:3.06e+16  axis-ratio:5.92e+02  free-mem:38.60GB
+time:09:22:08.651  iter:18  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:180  fval:2.47e+10  fmin:6.13e+09  norm:3.06e+16  axis-ratio:6.63e+02  free-mem:38.61GB
+time:09:22:08.661  iter:19  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:190  fval:1.09e+10  fmin:6.13e+09  norm:3.06e+16  axis-ratio:7.17e+02  free-mem:38.61GB
+time:09:22:08.671  iter:20  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:200  fval:2.37e+09  fmin:2.37e+09  norm:3.06e+16  axis-ratio:8.46e+02  free-mem:38.61GB
+time:09:22:08.682  iter:21  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:210  fval:5.27e+09  fmin:2.37e+09  norm:3.06e+16  axis-ratio:9.13e+02  free-mem:38.60GB
+time:09:22:08.695  iter:22  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:220  fval:1.97e+10  fmin:2.37e+09  norm:3.06e+16  axis-ratio:9.44e+02  free-mem:38.58GB
+time:09:22:08.728  iter:23  elapsed-time:0.03  pmap-time:0.03  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:230  fval:1.41e+10  fmin:2.37e+09  norm:3.06e+16  axis-ratio:1.02e+03  free-mem:38.58GB
+time:09:22:08.737  iter:24  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:240  fval:1.90e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:1.05e+03  free-mem:38.58GB
+time:09:22:08.747  iter:25  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:250  fval:5.73e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:1.10e+03  free-mem:38.58GB
+time:09:22:08.757  iter:26  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:260  fval:2.24e+10  fmin:1.90e+09  norm:3.06e+16  axis-ratio:1.25e+03  free-mem:38.58GB
+time:09:22:08.767  iter:27  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:270  fval:1.08e+10  fmin:1.90e+09  norm:3.06e+16  axis-ratio:1.44e+03  free-mem:38.58GB
+time:09:22:08.777  iter:28  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:280  fval:1.28e+10  fmin:1.90e+09  norm:3.06e+16  axis-ratio:1.59e+03  free-mem:38.57GB
+time:09:22:08.787  iter:29  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:290  fval:9.49e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:1.70e+03  free-mem:38.56GB
+time:09:22:08.799  iter:30  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:300  fval:1.95e+10  fmin:1.90e+09  norm:3.06e+16  axis-ratio:1.92e+03  free-mem:38.55GB
+time:09:22:08.812  iter:31  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:310  fval:7.78e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:2.05e+03  free-mem:38.56GB
+time:09:22:08.834  iter:32  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:320  fval:1.86e+10  fmin:1.90e+09  norm:3.06e+16  axis-ratio:2.17e+03  free-mem:38.61GB
+time:09:22:08.844  iter:33  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:330  fval:1.08e+10  fmin:1.90e+09  norm:3.06e+16  axis-ratio:2.22e+03  free-mem:38.61GB
+time:09:22:08.853  iter:34  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:340  fval:2.24e+10  fmin:1.90e+09  norm:3.06e+16  axis-ratio:2.27e+03  free-mem:38.60GB
+time:09:22:08.863  iter:35  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:350  fval:1.41e+10  fmin:1.90e+09  norm:3.06e+16  axis-ratio:2.34e+03  free-mem:38.60GB
+time:09:22:08.874  iter:36  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:360  fval:1.26e+10  fmin:1.90e+09  norm:3.06e+16  axis-ratio:2.37e+03  free-mem:38.59GB
+time:09:22:08.884  iter:37  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:370  fval:1.24e+10  fmin:1.90e+09  norm:3.06e+16  axis-ratio:2.42e+03  free-mem:38.58GB
+time:09:22:08.895  iter:38  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:380  fval:1.44e+10  fmin:1.90e+09  norm:3.06e+16  axis-ratio:2.47e+03  free-mem:38.58GB
+time:09:22:08.91  iter:39  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:390  fval:1.30e+10  fmin:1.90e+09  norm:3.06e+16  axis-ratio:2.50e+03  free-mem:38.58GB
+time:09:22:08.936  iter:40  elapsed-time:0.03  pmap-time:0.03  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:400  fval:1.36e+10  fmin:1.90e+09  norm:3.06e+16  axis-ratio:2.59e+03  free-mem:38.63GB
+time:09:22:08.946  iter:41  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:410  fval:6.39e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:2.63e+03  free-mem:38.62GB
+time:09:22:08.956  iter:42  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:420  fval:1.09e+10  fmin:1.90e+09  norm:3.06e+16  axis-ratio:2.88e+03  free-mem:38.61GB
+time:09:22:08.966  iter:43  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:430  fval:5.80e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:3.03e+03  free-mem:38.61GB
+time:09:22:08.975  iter:44  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:440  fval:3.50e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:3.15e+03  free-mem:38.60GB
+time:09:22:08.985  iter:45  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:450  fval:6.85e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:3.42e+03  free-mem:38.62GB
+time:09:22:08.996  iter:46  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:460  fval:1.62e+10  fmin:1.90e+09  norm:3.06e+16  axis-ratio:3.98e+03  free-mem:38.63GB
+time:09:22:09.008  iter:47  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:470  fval:7.08e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:4.29e+03  free-mem:38.63GB
+time:09:22:09.021  iter:48  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:480  fval:7.05e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:4.38e+03  free-mem:38.62GB
+time:09:22:09.04  iter:49  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:490  fval:6.95e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:4.49e+03  free-mem:38.61GB
+time:09:22:09.051  iter:50  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:500  fval:8.21e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:4.50e+03  free-mem:38.60GB
+time:09:22:09.061  iter:51  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:510  fval:1.39e+10  fmin:1.90e+09  norm:3.06e+16  axis-ratio:4.51e+03  free-mem:38.60GB
+time:09:22:09.071  iter:52  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:520  fval:1.10e+10  fmin:1.90e+09  norm:3.06e+16  axis-ratio:4.73e+03  free-mem:38.62GB
+time:09:22:09.081  iter:53  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:530  fval:8.40e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:4.80e+03  free-mem:38.62GB
+time:09:22:09.091  iter:54  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:540  fval:7.79e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:4.99e+03  free-mem:38.62GB
+time:09:22:09.102  iter:55  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:550  fval:6.72e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:5.19e+03  free-mem:38.62GB
+time:09:22:09.114  iter:56  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:560  fval:7.34e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:5.43e+03  free-mem:38.61GB
+time:09:22:09.135  iter:57  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:570  fval:7.61e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:5.51e+03  free-mem:38.60GB
+time:09:22:09.145  iter:58  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:580  fval:6.41e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:5.56e+03  free-mem:38.59GB
+time:09:22:09.156  iter:59  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:590  fval:5.70e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:5.60e+03  free-mem:38.60GB
+time:09:22:09.166  iter:60  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:600  fval:5.72e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:5.75e+03  free-mem:38.61GB
+time:09:22:09.176  iter:61  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:610  fval:5.10e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:5.78e+03  free-mem:38.61GB
+time:09:22:09.187  iter:62  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:620  fval:6.35e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:5.92e+03  free-mem:38.61GB
+time:09:22:09.197  iter:63  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:630  fval:4.76e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:6.18e+03  free-mem:38.61GB
+time:09:22:09.209  iter:64  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:640  fval:4.54e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:6.47e+03  free-mem:38.60GB
+time:09:22:09.231  iter:65  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:650  fval:6.06e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:6.56e+03  free-mem:38.61GB
+time:09:22:09.241  iter:66  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:660  fval:3.06e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:6.76e+03  free-mem:38.62GB
+time:09:22:09.251  iter:67  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:670  fval:3.46e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:7.15e+03  free-mem:38.64GB
+time:09:22:09.262  iter:68  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:680  fval:1.07e+10  fmin:1.90e+09  norm:3.06e+16  axis-ratio:7.31e+03  free-mem:38.64GB
+time:09:22:09.272  iter:69  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:690  fval:3.66e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:7.50e+03  free-mem:38.64GB
+time:09:22:09.283  iter:70  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:700  fval:2.88e+09  fmin:1.90e+09  norm:3.06e+16  axis-ratio:7.79e+03  free-mem:38.63GB
+time:09:22:09.293  iter:71  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:710  fval:1.58e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:8.24e+03  free-mem:38.62GB
+time:09:22:09.305  iter:72  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:720  fval:2.37e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:8.81e+03  free-mem:38.62GB
+time:09:22:09.321  iter:73  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:730  fval:3.39e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:8.94e+03  free-mem:38.58GB
+time:09:22:09.342  iter:74  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:740  fval:2.00e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:9.18e+03  free-mem:38.61GB
+time:09:22:09.352  iter:75  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:750  fval:8.80e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:9.51e+03  free-mem:38.61GB
+time:09:22:09.362  iter:76  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:760  fval:8.55e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:9.88e+03  free-mem:38.61GB
+time:09:22:09.372  iter:77  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:770  fval:7.39e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.01e+04  free-mem:38.61GB
+time:09:22:09.383  iter:78  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:780  fval:4.45e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.04e+04  free-mem:38.60GB
+time:09:22:09.393  iter:79  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:790  fval:4.39e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.04e+04  free-mem:38.59GB
+time:09:22:09.404  iter:80  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:800  fval:4.28e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.04e+04  free-mem:38.58GB
+time:09:22:09.416  iter:81  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:810  fval:4.61e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.06e+04  free-mem:38.59GB
+time:09:22:09.437  iter:82  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:820  fval:2.47e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.06e+04  free-mem:38.61GB
+time:09:22:09.447  iter:83  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:830  fval:5.71e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.07e+04  free-mem:38.61GB
+time:09:22:09.456  iter:84  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:840  fval:8.37e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.07e+04  free-mem:38.60GB
+time:09:22:09.469  iter:85  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:850  fval:2.53e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.08e+04  free-mem:38.59GB
+time:09:22:09.479  iter:86  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:860  fval:2.65e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.10e+04  free-mem:38.58GB
+time:09:22:09.489  iter:87  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:870  fval:7.14e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.12e+04  free-mem:38.58GB
+time:09:22:09.499  iter:88  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:880  fval:5.13e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.15e+04  free-mem:38.58GB
+time:09:22:09.511  iter:89  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:890  fval:6.09e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.23e+04  free-mem:38.60GB
+time:09:22:09.524  iter:90  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:900  fval:4.98e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.33e+04  free-mem:38.59GB
+time:09:22:09.544  iter:91  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:910  fval:5.39e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.38e+04  free-mem:38.59GB
+time:09:22:09.554  iter:92  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:920  fval:4.11e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.38e+04  free-mem:38.58GB
+time:09:22:09.564  iter:93  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:930  fval:3.03e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.39e+04  free-mem:38.58GB
+time:09:22:09.574  iter:94  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:940  fval:3.81e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.40e+04  free-mem:38.57GB
+time:09:22:09.584  iter:95  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:950  fval:5.96e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.44e+04  free-mem:38.56GB
+time:09:22:09.594  iter:96  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:960  fval:3.01e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.46e+04  free-mem:38.59GB
+time:09:22:09.606  iter:97  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:970  fval:5.32e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.51e+04  free-mem:38.59GB
+time:09:22:09.618  iter:98  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:980  fval:4.17e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.55e+04  free-mem:38.59GB
+time:09:22:09.64  iter:99  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:990  fval:3.97e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.58e+04  free-mem:38.60GB
+time:09:22:09.651  iter:100  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1000  fval:3.08e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.59e+04  free-mem:38.60GB
+time:09:22:09.661  iter:101  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1010  fval:4.38e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.61e+04  free-mem:38.59GB
+time:09:22:09.671  iter:102  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1020  fval:2.94e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.66e+04  free-mem:38.59GB
+time:09:22:09.681  iter:103  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1030  fval:3.55e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.68e+04  free-mem:38.61GB
+time:09:22:09.691  iter:104  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1040  fval:2.87e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.70e+04  free-mem:38.61GB
+time:09:22:09.701  iter:105  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1050  fval:3.48e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.71e+04  free-mem:38.61GB
+time:09:22:09.715  iter:106  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1060  fval:2.97e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.77e+04  free-mem:38.60GB
+time:09:22:09.74  iter:107  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1070  fval:4.35e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:1.88e+04  free-mem:38.56GB
+time:09:22:09.751  iter:108  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1080  fval:3.96e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:2.07e+04  free-mem:38.55GB
+time:09:22:09.761  iter:109  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1090  fval:3.38e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:2.29e+04  free-mem:38.58GB
+time:09:22:09.772  iter:110  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1100  fval:2.98e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:2.48e+04  free-mem:38.58GB
+time:09:22:09.782  iter:111  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1110  fval:2.22e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:2.70e+04  free-mem:38.58GB
+time:09:22:09.792  iter:112  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1120  fval:2.28e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:3.09e+04  free-mem:38.58GB
+time:09:22:09.802  iter:113  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1130  fval:4.21e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:3.21e+04  free-mem:38.57GB
+time:09:22:09.813  iter:114  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1140  fval:2.01e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:3.46e+04  free-mem:38.56GB
+time:09:22:09.825  iter:115  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1150  fval:2.23e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:3.68e+04  free-mem:38.58GB
+time:09:22:09.849  iter:116  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1160  fval:2.65e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:3.91e+04  free-mem:38.67GB
+time:09:22:09.859  iter:117  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1170  fval:2.14e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:4.35e+04  free-mem:38.67GB
+time:09:22:09.869  iter:118  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1180  fval:2.45e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:4.56e+04  free-mem:38.67GB
+time:09:22:09.88  iter:119  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1190  fval:1.98e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:4.85e+04  free-mem:38.66GB
+time:09:22:09.89  iter:120  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1200  fval:1.84e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:5.47e+04  free-mem:38.66GB
+time:09:22:09.9  iter:121  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1210  fval:1.91e+09  fmin:1.58e+09  norm:3.06e+16  axis-ratio:6.12e+04  free-mem:38.65GB
+time:09:22:09.911  iter:122  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1220  fval:1.53e+09  fmin:1.53e+09  norm:3.06e+16  axis-ratio:6.52e+04  free-mem:38.64GB
+time:09:22:09.924  iter:123  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1230  fval:1.61e+09  fmin:1.53e+09  norm:3.06e+16  axis-ratio:7.01e+04  free-mem:38.62GB
+time:09:22:09.95  iter:124  elapsed-time:0.03  pmap-time:0.03  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1240  fval:1.39e+09  fmin:1.39e+09  norm:3.06e+16  axis-ratio:7.58e+04  free-mem:38.65GB
+time:09:22:09.96  iter:125  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1250  fval:1.62e+09  fmin:1.39e+09  norm:3.06e+16  axis-ratio:7.96e+04  free-mem:38.65GB
+time:09:22:09.97  iter:126  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1260  fval:1.38e+09  fmin:1.38e+09  norm:3.06e+16  axis-ratio:8.65e+04  free-mem:38.65GB
+time:09:22:09.981  iter:127  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1270  fval:1.26e+09  fmin:1.26e+09  norm:3.06e+16  axis-ratio:9.27e+04  free-mem:38.64GB
+time:09:22:09.991  iter:128  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1280  fval:1.36e+09  fmin:1.26e+09  norm:3.06e+16  axis-ratio:9.75e+04  free-mem:38.63GB
+time:09:22:10.002  iter:129  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1290  fval:1.45e+09  fmin:1.26e+09  norm:3.06e+16  axis-ratio:9.96e+04  free-mem:38.63GB
+time:09:22:10.012  iter:130  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1300  fval:1.47e+09  fmin:1.26e+09  norm:3.06e+16  axis-ratio:1.02e+05  free-mem:38.62GB
+time:09:22:10.024  iter:131  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1310  fval:1.54e+09  fmin:1.26e+09  norm:3.06e+16  axis-ratio:1.05e+05  free-mem:38.65GB
+time:09:22:10.039  iter:132  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1320  fval:1.35e+09  fmin:1.26e+09  norm:3.06e+16  axis-ratio:1.08e+05  free-mem:38.63GB
+time:09:22:10.06  iter:133  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1330  fval:1.45e+09  fmin:1.26e+09  norm:3.06e+16  axis-ratio:1.11e+05  free-mem:38.64GB
+time:09:22:10.071  iter:134  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1340  fval:1.70e+09  fmin:1.26e+09  norm:3.06e+16  axis-ratio:1.12e+05  free-mem:38.64GB
+time:09:22:10.081  iter:135  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1350  fval:1.64e+09  fmin:1.26e+09  norm:3.06e+16  axis-ratio:1.22e+05  free-mem:38.63GB
+time:09:22:10.091  iter:136  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1360  fval:1.45e+09  fmin:1.26e+09  norm:3.06e+16  axis-ratio:1.31e+05  free-mem:38.62GB
+time:09:22:10.102  iter:137  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1370  fval:1.80e+09  fmin:1.26e+09  norm:3.06e+16  axis-ratio:1.35e+05  free-mem:38.62GB
+time:09:22:10.112  iter:138  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1380  fval:1.32e+09  fmin:1.26e+09  norm:3.06e+16  axis-ratio:1.41e+05  free-mem:38.65GB
+time:09:22:10.124  iter:139  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1390  fval:1.35e+09  fmin:1.26e+09  norm:3.06e+16  axis-ratio:1.48e+05  free-mem:38.64GB
+time:09:22:10.137  iter:140  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1400  fval:1.53e+09  fmin:1.26e+09  norm:3.06e+16  axis-ratio:1.51e+05  free-mem:38.63GB
+time:09:22:10.161  iter:141  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1410  fval:1.20e+09  fmin:1.20e+09  norm:3.06e+16  axis-ratio:1.51e+05  free-mem:38.63GB
+time:09:22:10.171  iter:142  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1420  fval:1.25e+09  fmin:1.20e+09  norm:3.06e+16  axis-ratio:1.53e+05  free-mem:38.62GB
+time:09:22:10.181  iter:143  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1430  fval:1.10e+09  fmin:1.10e+09  norm:3.06e+16  axis-ratio:1.64e+05  free-mem:38.61GB
+time:09:22:10.192  iter:144  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1440  fval:1.15e+09  fmin:1.10e+09  norm:3.06e+16  axis-ratio:1.80e+05  free-mem:38.64GB
+time:09:22:10.202  iter:145  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1450  fval:1.17e+09  fmin:1.10e+09  norm:3.06e+16  axis-ratio:1.87e+05  free-mem:38.64GB
+time:09:22:10.212  iter:146  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1460  fval:1.23e+09  fmin:1.10e+09  norm:3.06e+16  axis-ratio:1.94e+05  free-mem:38.64GB
+time:09:22:10.223  iter:147  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1470  fval:1.04e+09  fmin:1.04e+09  norm:3.06e+16  axis-ratio:2.05e+05  free-mem:38.64GB
+time:09:22:10.235  iter:148  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1480  fval:1.02e+09  fmin:1.02e+09  norm:3.06e+16  axis-ratio:2.15e+05  free-mem:38.62GB
+time:09:22:10.251  iter:149  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1490  fval:9.27e+08  fmin:9.27e+08  norm:3.06e+16  axis-ratio:2.27e+05  free-mem:38.59GB
+time:09:22:10.272  iter:150  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1500  fval:9.03e+08  fmin:9.03e+08  norm:3.06e+16  axis-ratio:2.54e+05  free-mem:38.60GB
+time:09:22:10.282  iter:151  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1510  fval:9.76e+08  fmin:9.03e+08  norm:3.06e+16  axis-ratio:2.60e+05  free-mem:38.63GB
+time:09:22:10.291  iter:152  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1520  fval:9.38e+08  fmin:9.03e+08  norm:3.06e+16  axis-ratio:2.81e+05  free-mem:38.63GB
+time:09:22:10.301  iter:153  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1530  fval:9.34e+08  fmin:9.03e+08  norm:3.06e+16  axis-ratio:2.92e+05  free-mem:38.63GB
+time:09:22:10.312  iter:154  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1540  fval:8.76e+08  fmin:8.76e+08  norm:3.06e+16  axis-ratio:3.26e+05  free-mem:38.63GB
+time:09:22:10.322  iter:155  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1550  fval:8.45e+08  fmin:8.45e+08  norm:3.06e+16  axis-ratio:3.83e+05  free-mem:38.62GB
+time:09:22:10.333  iter:156  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1560  fval:8.38e+08  fmin:8.38e+08  norm:3.06e+16  axis-ratio:4.32e+05  free-mem:38.61GB
+time:09:22:10.348  iter:157  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1570  fval:7.69e+08  fmin:7.69e+08  norm:3.06e+16  axis-ratio:4.81e+05  free-mem:38.59GB
+time:09:22:10.371  iter:158  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1580  fval:8.30e+08  fmin:7.69e+08  norm:3.06e+16  axis-ratio:5.43e+05  free-mem:38.60GB
+time:09:22:10.381  iter:159  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1590  fval:7.33e+08  fmin:7.33e+08  norm:3.06e+16  axis-ratio:5.76e+05  free-mem:38.60GB
+time:09:22:10.391  iter:160  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1600  fval:7.83e+08  fmin:7.33e+08  norm:3.06e+16  axis-ratio:5.91e+05  free-mem:38.60GB
+time:09:22:10.401  iter:161  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1610  fval:7.17e+08  fmin:7.17e+08  norm:3.06e+16  axis-ratio:6.07e+05  free-mem:38.60GB
+time:09:22:10.411  iter:162  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1620  fval:7.39e+08  fmin:7.17e+08  norm:3.06e+16  axis-ratio:6.12e+05  free-mem:38.59GB
+time:09:22:10.421  iter:163  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1630  fval:6.82e+08  fmin:6.82e+08  norm:3.06e+16  axis-ratio:6.55e+05  free-mem:38.58GB
+time:09:22:10.432  iter:164  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1640  fval:6.23e+08  fmin:6.23e+08  norm:3.06e+16  axis-ratio:6.96e+05  free-mem:38.57GB
+time:09:22:10.444  iter:165  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1650  fval:6.88e+08  fmin:6.23e+08  norm:3.06e+16  axis-ratio:7.07e+05  free-mem:38.57GB
+time:09:22:10.466  iter:166  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1660  fval:6.83e+08  fmin:6.23e+08  norm:3.06e+16  axis-ratio:7.14e+05  free-mem:38.59GB
+time:09:22:10.477  iter:167  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1670  fval:7.83e+08  fmin:6.23e+08  norm:3.06e+16  axis-ratio:7.47e+05  free-mem:38.59GB
+time:09:22:10.487  iter:168  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1680  fval:7.13e+08  fmin:6.23e+08  norm:3.06e+16  axis-ratio:7.52e+05  free-mem:38.59GB
+time:09:22:10.497  iter:169  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1690  fval:6.87e+08  fmin:6.23e+08  norm:3.06e+16  axis-ratio:7.57e+05  free-mem:38.58GB
+time:09:22:10.507  iter:170  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1700  fval:6.90e+08  fmin:6.23e+08  norm:3.06e+16  axis-ratio:7.63e+05  free-mem:38.57GB
+time:09:22:10.517  iter:171  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1710  fval:7.13e+08  fmin:6.23e+08  norm:3.06e+16  axis-ratio:7.96e+05  free-mem:38.57GB
+time:09:22:10.527  iter:172  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1720  fval:6.47e+08  fmin:6.23e+08  norm:3.06e+16  axis-ratio:8.06e+05  free-mem:38.56GB
+time:09:22:10.539  iter:173  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1730  fval:6.87e+08  fmin:6.23e+08  norm:3.06e+16  axis-ratio:8.10e+05  free-mem:38.59GB
+time:09:22:10.551  iter:174  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1740  fval:6.42e+08  fmin:6.23e+08  norm:3.06e+16  axis-ratio:8.10e+05  free-mem:38.58GB
+time:09:22:10.571  iter:175  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1750  fval:6.42e+08  fmin:6.23e+08  norm:3.06e+16  axis-ratio:8.18e+05  free-mem:38.58GB
+time:09:22:10.583  iter:176  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1760  fval:5.73e+08  fmin:5.73e+08  norm:3.06e+16  axis-ratio:8.47e+05  free-mem:38.58GB
+time:09:22:10.593  iter:177  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1770  fval:5.49e+08  fmin:5.49e+08  norm:3.06e+16  axis-ratio:9.35e+05  free-mem:38.57GB
+time:09:22:10.603  iter:178  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1780  fval:4.54e+08  fmin:4.54e+08  norm:3.06e+16  axis-ratio:1.11e+06  free-mem:38.56GB
+time:09:22:10.614  iter:179  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1790  fval:5.13e+08  fmin:4.54e+08  norm:3.06e+16  axis-ratio:1.15e+06  free-mem:38.56GB
+time:09:22:10.624  iter:180  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1800  fval:5.77e+08  fmin:4.54e+08  norm:3.06e+16  axis-ratio:1.16e+06  free-mem:38.58GB
+time:09:22:10.634  iter:181  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1810  fval:5.10e+08  fmin:4.54e+08  norm:3.06e+16  axis-ratio:1.18e+06  free-mem:38.58GB
+time:09:22:10.646  iter:182  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1820  fval:4.84e+08  fmin:4.54e+08  norm:3.06e+16  axis-ratio:1.22e+06  free-mem:38.58GB
+time:09:22:10.667  iter:183  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1830  fval:3.86e+08  fmin:3.86e+08  norm:3.06e+16  axis-ratio:1.32e+06  free-mem:38.57GB
+time:09:22:10.677  iter:184  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1840  fval:4.24e+08  fmin:3.86e+08  norm:3.06e+16  axis-ratio:1.45e+06  free-mem:38.56GB
+time:09:22:10.687  iter:185  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1850  fval:3.98e+08  fmin:3.86e+08  norm:3.06e+16  axis-ratio:1.47e+06  free-mem:38.55GB
+time:09:22:10.698  iter:186  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1860  fval:3.56e+08  fmin:3.56e+08  norm:3.06e+16  axis-ratio:1.56e+06  free-mem:38.55GB
+time:09:22:10.708  iter:187  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1870  fval:2.98e+08  fmin:2.98e+08  norm:3.06e+16  axis-ratio:1.60e+06  free-mem:38.58GB
+time:09:22:10.719  iter:188  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1880  fval:3.48e+08  fmin:2.98e+08  norm:3.06e+16  axis-ratio:1.65e+06  free-mem:38.57GB
+time:09:22:10.729  iter:189  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1890  fval:4.06e+08  fmin:2.98e+08  norm:3.06e+16  axis-ratio:1.68e+06  free-mem:38.57GB
+time:09:22:10.741  iter:190  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1900  fval:2.84e+08  fmin:2.84e+08  norm:3.06e+16  axis-ratio:1.69e+06  free-mem:38.57GB
+time:09:22:10.752  iter:191  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1910  fval:2.30e+08  fmin:2.30e+08  norm:3.06e+16  axis-ratio:1.72e+06  free-mem:38.62GB
+time:09:22:10.772  iter:192  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1920  fval:4.34e+08  fmin:2.30e+08  norm:3.06e+16  axis-ratio:1.77e+06  free-mem:38.61GB
+time:09:22:10.782  iter:193  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1930  fval:3.93e+08  fmin:2.30e+08  norm:3.06e+16  axis-ratio:1.77e+06  free-mem:38.61GB
+time:09:22:10.792  iter:194  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1940  fval:1.85e+08  fmin:1.85e+08  norm:3.06e+16  axis-ratio:1.89e+06  free-mem:38.62GB
+time:09:22:10.803  iter:195  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1950  fval:9.34e+07  fmin:9.34e+07  norm:3.06e+16  axis-ratio:1.95e+06  free-mem:38.63GB
+time:09:22:10.813  iter:196  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1960  fval:1.03e+08  fmin:9.34e+07  norm:3.06e+16  axis-ratio:2.04e+06  free-mem:38.63GB
+time:09:22:10.823  iter:197  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1970  fval:1.50e+08  fmin:9.34e+07  norm:3.06e+16  axis-ratio:2.21e+06  free-mem:38.63GB
+time:09:22:10.834  iter:198  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1980  fval:2.48e+07  fmin:2.48e+07  norm:3.06e+16  axis-ratio:2.25e+06  free-mem:38.63GB
+time:09:22:10.846  iter:199  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:1990  fval:6.69e+07  fmin:2.48e+07  norm:3.06e+16  axis-ratio:2.33e+06  free-mem:38.62GB
+time:09:22:10.867  iter:200  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2000  fval:2.57e+08  fmin:2.48e+07  norm:3.06e+16  axis-ratio:2.36e+06  free-mem:38.63GB
+time:09:22:10.877  iter:201  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2010  fval:2.24e+08  fmin:2.48e+07  norm:3.06e+16  axis-ratio:2.63e+06  free-mem:38.63GB
+time:09:22:10.886  iter:202  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2020  fval:9.25e+07  fmin:2.48e+07  norm:3.06e+16  axis-ratio:2.71e+06  free-mem:38.66GB
+time:09:22:10.896  iter:203  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2030  fval:1.22e+08  fmin:2.48e+07  norm:3.06e+16  axis-ratio:2.74e+06  free-mem:38.66GB
+time:09:22:10.906  iter:204  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2040  fval:1.30e+08  fmin:2.48e+07  norm:3.06e+16  axis-ratio:2.77e+06  free-mem:38.66GB
+time:09:22:10.916  iter:205  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2050  fval:6.00e+07  fmin:2.48e+07  norm:3.06e+16  axis-ratio:2.80e+06  free-mem:38.65GB
+time:09:22:10.926  iter:206  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2060  fval:2.01e+08  fmin:2.48e+07  norm:3.06e+16  axis-ratio:2.96e+06  free-mem:38.65GB
+time:09:22:10.94  iter:207  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2070  fval:5.17e+07  fmin:2.48e+07  norm:3.06e+16  axis-ratio:3.04e+06  free-mem:38.63GB
+time:09:22:10.956  iter:208  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2080  fval:6.59e+07  fmin:2.48e+07  norm:3.06e+16  axis-ratio:3.06e+06  free-mem:38.60GB
+time:09:22:10.975  iter:209  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2090  fval:2.40e+07  fmin:2.40e+07  norm:3.06e+16  axis-ratio:3.09e+06  free-mem:38.63GB
+time:09:22:10.985  iter:210  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2100  fval:1.16e+08  fmin:2.40e+07  norm:3.06e+16  axis-ratio:3.28e+06  free-mem:38.63GB
+time:09:22:10.995  iter:211  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2110  fval:1.54e+07  fmin:1.54e+07  norm:3.06e+16  axis-ratio:3.40e+06  free-mem:38.63GB
+time:09:22:11.004  iter:212  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2120  fval:9.58e+07  fmin:1.54e+07  norm:3.06e+16  axis-ratio:3.42e+06  free-mem:38.62GB
+time:09:22:11.014  iter:213  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2130  fval:6.68e+07  fmin:1.54e+07  norm:3.06e+16  axis-ratio:3.43e+06  free-mem:38.61GB
+time:09:22:11.024  iter:214  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2140  fval:7.00e+07  fmin:1.54e+07  norm:3.06e+16  axis-ratio:3.58e+06  free-mem:38.61GB
+time:09:22:11.035  iter:215  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2150  fval:9.51e+07  fmin:1.54e+07  norm:3.06e+16  axis-ratio:3.74e+06  free-mem:38.60GB
+time:09:22:11.047  iter:216  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2160  fval:1.20e+08  fmin:1.54e+07  norm:3.06e+16  axis-ratio:3.88e+06  free-mem:38.59GB
+time:09:22:11.069  iter:217  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2170  fval:1.26e+08  fmin:1.54e+07  norm:3.06e+16  axis-ratio:3.92e+06  free-mem:38.65GB
+time:09:22:11.079  iter:218  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2180  fval:3.59e+07  fmin:1.54e+07  norm:3.06e+16  axis-ratio:4.18e+06  free-mem:38.65GB
+time:09:22:11.089  iter:219  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2190  fval:6.40e+07  fmin:1.54e+07  norm:3.06e+16  axis-ratio:4.37e+06  free-mem:38.64GB
+time:09:22:11.099  iter:220  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2200  fval:5.87e+07  fmin:1.54e+07  norm:3.06e+16  axis-ratio:4.41e+06  free-mem:38.64GB
+time:09:22:11.108  iter:221  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2210  fval:2.98e+07  fmin:1.54e+07  norm:3.06e+16  axis-ratio:4.43e+06  free-mem:38.63GB
+time:09:22:11.118  iter:222  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2220  fval:3.39e+07  fmin:1.54e+07  norm:3.06e+16  axis-ratio:4.46e+06  free-mem:38.62GB
+time:09:22:11.128  iter:223  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2230  fval:1.34e+07  fmin:1.34e+07  norm:3.06e+16  axis-ratio:4.50e+06  free-mem:38.62GB
+time:09:22:11.142  iter:224  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2240  fval:4.24e+07  fmin:1.34e+07  norm:3.06e+16  axis-ratio:4.56e+06  free-mem:38.63GB
+time:09:22:11.167  iter:225  elapsed-time:0.03  pmap-time:0.03  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2250  fval:4.66e+07  fmin:1.34e+07  norm:3.06e+16  axis-ratio:4.57e+06  free-mem:38.64GB
+time:09:22:11.178  iter:226  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2260  fval:3.36e+07  fmin:1.34e+07  norm:3.06e+16  axis-ratio:4.59e+06  free-mem:38.63GB
+time:09:22:11.188  iter:227  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2270  fval:2.14e+07  fmin:1.34e+07  norm:3.06e+16  axis-ratio:4.65e+06  free-mem:38.63GB
+time:09:22:11.198  iter:228  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2280  fval:4.09e+07  fmin:1.34e+07  norm:3.06e+16  axis-ratio:4.64e+06  free-mem:38.62GB
+time:09:22:11.208  iter:229  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2290  fval:3.53e+07  fmin:1.34e+07  norm:3.06e+16  axis-ratio:4.77e+06  free-mem:38.61GB
+time:09:22:11.218  iter:230  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2300  fval:4.48e+07  fmin:1.34e+07  norm:3.06e+16  axis-ratio:4.82e+06  free-mem:38.61GB
+time:09:22:11.227  iter:231  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2310  fval:2.74e+07  fmin:1.34e+07  norm:3.06e+16  axis-ratio:4.94e+06  free-mem:38.63GB
+time:09:22:11.239  iter:232  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2320  fval:2.42e+07  fmin:1.34e+07  norm:3.06e+16  axis-ratio:5.06e+06  free-mem:38.63GB
+time:09:22:11.253  iter:233  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2330  fval:3.57e+07  fmin:1.34e+07  norm:3.06e+16  axis-ratio:5.09e+06  free-mem:38.61GB
+time:09:22:11.274  iter:234  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2340  fval:2.75e+07  fmin:1.34e+07  norm:3.06e+16  axis-ratio:5.25e+06  free-mem:38.60GB
+time:09:22:11.284  iter:235  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2350  fval:2.33e+07  fmin:1.34e+07  norm:3.06e+16  axis-ratio:5.35e+06  free-mem:38.59GB
+time:09:22:11.294  iter:236  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2360  fval:1.91e+07  fmin:1.34e+07  norm:3.06e+16  axis-ratio:5.48e+06  free-mem:38.59GB
+time:09:22:11.304  iter:237  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2370  fval:1.56e+07  fmin:1.34e+07  norm:3.06e+16  axis-ratio:5.58e+06  free-mem:38.58GB
+time:09:22:11.314  iter:238  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2380  fval:5.24e+07  fmin:1.34e+07  norm:3.06e+16  axis-ratio:5.91e+06  free-mem:38.61GB
+time:09:22:11.324  iter:239  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2390  fval:2.02e+07  fmin:1.34e+07  norm:3.06e+16  axis-ratio:6.05e+06  free-mem:38.61GB
+time:09:22:11.335  iter:240  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2400  fval:2.09e+07  fmin:1.34e+07  norm:3.06e+16  axis-ratio:6.02e+06  free-mem:38.61GB
+time:09:22:11.346  iter:241  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2410  fval:1.54e+07  fmin:1.34e+07  norm:3.06e+16  axis-ratio:6.07e+06  free-mem:38.60GB
+time:09:22:11.368  iter:242  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2420  fval:2.36e+07  fmin:1.34e+07  norm:3.06e+16  axis-ratio:6.22e+06  free-mem:38.62GB
+time:09:22:11.378  iter:243  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2430  fval:1.25e+07  fmin:1.25e+07  norm:3.06e+16  axis-ratio:6.44e+06  free-mem:38.61GB
+time:09:22:11.388  iter:244  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2440  fval:1.56e+07  fmin:1.25e+07  norm:3.06e+16  axis-ratio:6.59e+06  free-mem:38.60GB
+time:09:22:11.398  iter:245  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2450  fval:1.72e+07  fmin:1.25e+07  norm:3.06e+16  axis-ratio:6.76e+06  free-mem:38.62GB
+time:09:22:11.408  iter:246  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2460  fval:1.51e+07  fmin:1.25e+07  norm:3.06e+16  axis-ratio:6.84e+06  free-mem:38.63GB
+time:09:22:11.418  iter:247  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2470  fval:1.31e+07  fmin:1.25e+07  norm:3.06e+16  axis-ratio:7.05e+06  free-mem:38.63GB
+time:09:22:11.428  iter:248  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2480  fval:1.86e+07  fmin:1.25e+07  norm:3.06e+16  axis-ratio:7.22e+06  free-mem:38.63GB
+time:09:22:11.44  iter:249  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2490  fval:1.43e+07  fmin:1.25e+07  norm:3.06e+16  axis-ratio:7.63e+06  free-mem:38.61GB
+time:09:22:11.456  iter:250  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2500  fval:1.28e+07  fmin:1.25e+07  norm:3.06e+16  axis-ratio:8.34e+06  free-mem:38.58GB
+time:09:22:11.475  iter:251  elapsed-time:0.02  pmap-time:0.02  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2510  fval:1.80e+07  fmin:1.25e+07  norm:3.06e+16  axis-ratio:9.18e+06  free-mem:38.57GB
+time:09:22:11.485  iter:252  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2520  fval:1.51e+07  fmin:1.25e+07  norm:3.06e+16  axis-ratio:9.77e+06  free-mem:38.59GB
+time:09:22:11.495  iter:253  elapsed-time:0.01  pmap-time:0.01  grad-time:0.00  ls-time:0.00 ls-dec:0.00e+00
+fcount:2530  fval:1.39e+07  fmin:1.25e+07  norm:3.06e+16  axis-ratio:1.04e+07  free-mem:38.59GB
+Termination Condition Satisfied: ConditionCov
+
+ GCMAES: retcode: Success
+u: [3.0625000000002e16, -0.0021722943076114254, -0.047323128876008626, 0.0852972212686706, -0.0026281761511936555, -0.09906973714028422, 6.0049075550646096e-5, 0.014280467847044283]
+Final objective value:     1.254472863667657e7
+
+(5_w,10)-aCMA-ES (mu_w=3.2,w_1=46%) in dimension 8 (seed=18070228836104712199, 2023-12-29T09:22:14.758)
+  iter   fevals   function value      sigma  axis ratio   time[s]
+     1       10   2.81850642e+10   9.41e-02   1.251e+00     0.476
+     2       20   3.37594947e+10   8.62e-02   1.356e+00     1.078
+     3       30   3.00665050e+10   7.53e-02   1.397e+00     1.087
+   100     1000   4.43134969e+04   1.46e-03   1.940e+02     2.276
+   200     2000   8.77906067e+01   3.04e-06   4.644e+03     3.453
+   300     3000   8.77899673e+01   2.84e-08   1.413e+05     4.442
+   400     4000   8.77899288e+01   3.87e-05   3.965e+07     5.428
+   500     5000   8.77897680e+01   1.53e-06   4.970e+07     6.423
+   600     6000   8.77897678e+01   2.18e-07   8.277e+07     7.397
+   700     7000   8.77897673e+01   9.09e-09   6.058e+07     8.343
+   788     7880   8.77897673e+01   3.70e-09   5.185e+07     9.148
+
+ CMAEvolutionStrategy: retcode: Failure
+u: [3.0625e16, -0.04993356387065937, 0.0006096321888823559, -0.050000000048973356, -0.049999999997790874, -0.049999999999796846, -0.049999999999986715, 0.04741156245713801]
+Final objective value:     87.78976726181655
+
+
+ ECA: retcode: Default
+u: [5.249156862270704e15, 5.886245638458963e-5, 3.897478237908998e-12, 9.234112802726659e-17, 3.032528551159395e-26, 1.8755610018102654e-17, 2.557770638500957e-26, 0.00039504497618469573]
+Final objective value:     85.91219190170852
+
+
+ SA: retcode: Default
+u: [5.251311818935851e15, 6.319160291535273e-22, 0.35460535460112036, 2.1876957597582263e-45, 0.0, 0.0, 1.0896340130979533e-27, 0.0005755752759381154]
+Final objective value:     85.91237506663009
