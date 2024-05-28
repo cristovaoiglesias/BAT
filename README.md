@@ -12,7 +12,7 @@ We validate our theoretical studies with empirical experiments conducted on a sy
 ## Experiments with BAT 
 [Link](https://github.com/cristovaoiglesias/BAT/tree/main/experiments/EKF)
 
-We executed detailed experiments to answer the following three questions and understand the effectiveness of the proposed approach: Q1) How does the performance of BAT compare with the performance of baseline methods? Q2) Does the  BAT posterior density  enable an efficient sampling with MCMC?  Q3) What is the impact of prior distributions on the performance of BAT?
+We executed detailed experiments to answer the following three questions and understand the effectiveness of the proposed approach: Q1) How does the performance of BAT compare with the performance of baseline methods? Q2) Does the  BAT posterior density  enable an efficient sampling with MCMC? 
 
 ## Ilustrative application of BAT with UKF and CKF: Pendulum Case
 
